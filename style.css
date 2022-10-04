@@ -1,0 +1,88 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+ 
+.navbar-nav{
+    font-weight: 500;
+    float: right !important;
+     
+}
+.nav-link{
+color: black !important;
+transition: all 0.3s;
+}
+.nav-link:hover{
+    color: orangered !important;
+}
+/*--------------------------nnaav bar--------------------*/
+.first{
+    height: 75vh !important;
+    width: 100% !important;
+ background-image: url('./imges/menu.jpg');
+    background-color: black;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 30px;
+}
+ .innertext {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+.secound{
+
+    height: 75vh !important;
+    width: 100% !important;
+ 
+    background-color: black;
+   
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 30px;
+
+}
+.sora{
+height: 75vh !important;
+width: 100% !important;
+
+
+
+}
+.page1{
+    width: 103% !important;
+    position: absolute;
+    left: -20px;
+}
+/*--------------------------crousel--------------------*/
+
+.heading{
+position: relative;
+font-size: 15px;
+color: orangered;
+font-weight: 500;
+letter-spacing: 2px;
+text-transform: uppercase;
+padding-left: 40px;
+
+
+}
+ h6:before{
+width: 30px;
+height: 1px;
+position: absolute;
+content: '';
+left: 0;
+top: 8px;
+background-color: orangered;
+}
+.right{
+    margin-top: 50px;
+ 
+height: 60vh;
+width: 100%;
+
+}
+   
